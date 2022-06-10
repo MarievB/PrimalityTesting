@@ -9,6 +9,7 @@ import timeit
 import math
 import matplotlib.pyplot as plt
 plt.rcParams['text.usetex'] = True
+plt.rcParams.update({'font.size': 12})
 
 def f1(m):
     # n is prime when MR reports prime

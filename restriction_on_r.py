@@ -9,6 +9,7 @@ import timeit
 import math
 import matplotlib.pyplot as plt
 plt.rcParams['text.usetex'] = True
+plt.rcParams.update({'font.size': 12})
 
 def f(n):
     return [i-1 for i in n]
